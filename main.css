@@ -1,0 +1,346 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,200);
+@import url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
+/*Main CSS*/
+
+/* Override site */
+
+#main {
+    width: 100%; 
+    padding:0;
+}
+.content-asset p {margin:0 auto;}
+.breadcrumb {display:none;}
+
+/* Helpers */
+/**************************/
+
+.margin-top-10 {padding-top:10px;}
+.margin-bot-10 {padding-bottom:10px;}
+
+body {
+    margin: 0;
+    height: 100%;
+    padding: 0!important;
+}
+ .row {
+    margin: none;
+ }
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+/* Navigation */
+/*************************/
+header {
+    width: 100%;   
+}
+.navbox {
+    width: 100%;
+    height: 25px;
+    background-color: #1E232F;
+    padding: 40px;
+    position: fixed;
+    z-index: 1;
+    opacity: .55;
+}
+nav {
+    text-decoration: none;
+    text-transform: none;
+    text-align:center;
+    display: block;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+nav ul {
+ margin-top: 15px;   
+}
+nav ul li {
+    text-align:center;
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+.navigation li a {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    text-decoration: none;
+    text-transform: none;
+    margin: 0 5%;
+    padding: 5px;
+    width: 100%;
+    border: 2px solid rgba(30, 35, 47, 0);
+}
+.navigation li a:hover {
+    color: #FFF;
+    border: 2px solid #FFF;
+}
+/*Section 1*/
+.name {
+    width: 33%;
+    margin: 150px 33% 0 33%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border: 3px solid #FFF
+}
+.name h4 {
+    font-size: 34px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+}
+/*Section 2*/
+.bio-intro {
+    margin: 20px 0 50px;
+    background-color: #FFF;
+    padding: 20px 0px;
+}
+.bio-intro article {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bio-intro h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+    color: #373737;
+}
+.bio-intro p {
+    font-family: 'Goudy Bookletter 1911', serif; 
+    color: #373737;
+    font-size: 18px;
+}
+/*Section 2*/
+.about {
+    margin: 10px 0 50px;   
+}
+.about article h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #373737;
+    font-size: 38px;
+}
+.about article p {
+    font-family: 'Goudy Bookletter 1911', serif; 
+    color: #373737;
+    margin: 25px 10%;
+    font-size: 18px;
+}
+
+/*Section 3*/
+.Resume {
+    width: 100%;
+    float: left;
+    margin: 10px 0 50px;   
+}
+.Resume article {
+    width: 55%;
+    float: left;
+    margin: 25px 6.25%;
+}
+.Resume article h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #373737;
+    font-size: 38px;
+}
+.Resume article p {
+       font-family: 'Goudy Bookletter 1911', serif; 
+    color: #373737;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 30px;
+}
+.glyphicon {
+     margin: auto;
+    font-size: 38px;
+    color: #000;
+}
+.glyphicon:hover {
+    color: rgb(128, 194, 242);  
+}
+.centered-gly {
+    text-align: center;  
+}
+.Resume aside {
+    width: 20%;
+    float: left;
+    margin: 25px 6.25%; 
+}
+.Resume aside h3{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #373737;
+    font-size: 34px;
+}
+.Resume aside li {
+    font-family: 'Goudy Bookletter 1911', serif; 
+    color: #373737;
+}
+
+/*Section 4*/
+.my-work {
+    margin: 10px 0 50px;      
+}
+.my-work article h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #373737;
+    font-size: 38px;
+}
+.my-work article p {
+    font-family: 'Goudy Bookletter 1911', serif; 
+    color: #373737;
+    font-size: 18px;
+    margin: 25px 10%;
+}
+/*Footer*/
+.wrapper{
+    min-height: 100%;
+	height: auto !important; 
+	height: 100%;
+	margin: 0 auto -200px; 
+}
+.contact {
+    padding-bottom: 25px;   
+}
+#emailLink:hover {
+       color: rgb(128, 194, 242);
+    text-decoration: none;
+}
+footer {
+    background: #373737;  
+    width:100%; 
+    height:280px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding: 50px 0px;
+}
+footer a {
+    color: #fff;   
+}
+footer article {
+    float: left;
+    text-align: center;
+}
+footer .social-media-icons {
+    float: left;
+    text-align: center;
+    padding-left: 8.3333333%;
+}
+footer .social-media-icons div {
+    float: left;
+}
+footer .social-media-icons .facebook, footer .social-media-icons .twitter, footer .social-media-icons .linkedin  {
+    position: relative;
+    text-align: center;
+    height: 75px;
+    width: 70px;
+    background-image: url(../Images/Personal-social-Icons.png);
+    background-repeat: no-repeat;
+    margin: 5px 5px 0;
+    cursor: pointer;
+}
+footer .social-media-icons .facebook {   
+}
+footer .social-media-icons .twitter {
+    height: 75px;
+    background-position: -75px 0px;   
+}
+footer .social-media-icons .linkedin {
+    height: 75px;
+    background-position: -150px 0px;
+}
+footer .facebook:hover{
+    height: 75px;
+    background-position: -1px -80px;
+}
+footer .twitter:hover{
+    height: 75px;
+    background-position: -75px -79px;
+}
+footer .linkedin:hover{
+    height: 75px;
+    background-position: -149px -78px;
+}
+footer aside p {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-align: center;    
+}
+footer #author {
+    clear: both;
+    text-align: center;
+}
+.centered-icons {
+    text-align: center;
+    float: left;
+}
+/*Parallax Images*/
+
+#rossBody .parallax-one {
+    padding-top: 00px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%;
+    background-image: url('../Images/Sunset-at-San-Fransico-w1500-h1000.jpg'); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+#rossBody .parallax-two {
+    padding-top: 00px; 
+    padding-bottom: 500px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url('../Images/San-Fransico-Pano-w3500-h3000.jpg'); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+#rossBody .parallax-three {
+   padding-top: 00px; 
+    padding-bottom: 500px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url('../Images/Cal-Sonoma-w1500-h1000.jpg'); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;    
+}
+#rossBody .parallax-four {
+   padding-top: 00px; 
+    padding-bottom: 500px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url('../Images/Ross-bio-pic-w1500-h1000.jpg'); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;    
+}
