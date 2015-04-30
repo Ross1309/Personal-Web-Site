@@ -89,7 +89,7 @@ nav ul li {
 /*Section 1*/
 .name {
     width: 33%;
-    margin: 150px 33% 0 33%;
+    margin: 190px 33% 0 33%;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     border: 3px solid #FFF
@@ -290,11 +290,11 @@ footer #author {
 
 #rossBody .parallax-one {
     padding-top: 00px; 
-    padding-bottom: 200px; 
+    padding-bottom: 300px; 
     overflow: hidden; 
     position: relative; 
     width: 100%;
-    background-image: url('../Images/Sunset-at-San-Fransico-w1500-h1000.jpg'); 
+    background-image: url('../Images/Mountain-pictures.jpeg'); 
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
@@ -308,7 +308,7 @@ footer #author {
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url('../Images/San-Fransico-Pano-w3500-h3000.jpg'); 
+    background-image: url('../Images/seaside-mountain.jpeg'); 
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
@@ -322,7 +322,7 @@ footer #author {
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url('../Images/Cal-Sonoma-w1500-h1000.jpg'); 
+    background-image: url('../Images/comp-table-pic.jpeg'); 
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
