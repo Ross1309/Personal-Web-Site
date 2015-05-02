@@ -210,6 +210,7 @@ nav ul li {
 	height: auto !important; 
 	height: 100%;
 	margin: 0 auto -200px; 
+    
 }
 .contact {
     padding-bottom: 25px;   
@@ -225,12 +226,12 @@ footer {
     font-family: 'Raleway', sans-serif;
     color: #fff;
     padding: 50px 0px;
+    
 }
 footer a {
     color: #fff;   
 }
 footer article {
-    float: left;
     text-align: center;
 }
 footer .social-media-icons {
@@ -294,7 +295,7 @@ footer #author {
     overflow: hidden; 
     position: relative; 
     width: 100%;
-    background-image: url('../Images/Mountain-pictures.jpeg'); 
+    background-image: url('../Images/Mountain-pictures-w1500-h1000.jpeg'); 
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
@@ -308,7 +309,7 @@ footer #author {
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url('../Images/seaside-mountain.jpeg'); 
+    background-image: url('../Images/seaside-mountain-w1500-h1000.jpeg'); 
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
@@ -322,13 +323,14 @@ footer #author {
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url('../Images/comp-table-pic.jpeg'); 
+    background-image: url('../Images/comp-table-pic-w1500-h1000.jpeg'); 
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
     -webkit-background-size: cover; 
     background-repeat: no-repeat; 
-    background-position: center center;    
+    background-position: center center;
+    clear: both;
 }
 #rossBody .parallax-four {
    padding-top: 00px; 
@@ -343,4 +345,12 @@ footer #author {
     -webkit-background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center center;    
+}
+@media screen and (max-width: 992px) {
+    .navbox {
+        height: 150px;   
+    }
+    nav ul li {
+        margin: 15px 0;     
+    }
 }
