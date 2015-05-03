@@ -144,7 +144,7 @@ nav ul li {
     margin: 10px 0 50px;   
 }
 .Resume article {
-    width: 55%;
+    
     float: left;
     margin: 25px 6.25%;
 }
@@ -173,9 +173,14 @@ nav ul li {
     text-align: center;  
 }
 .Resume aside {
-    width: 20%;
+    
     float: left;
-    margin: 25px 6.25%; 
+    margin: 25px 6.25%;
+}
+.Resume aside ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
 }
 .Resume aside h3{
     text-align: center;
@@ -352,5 +357,42 @@ footer #author {
     }
     nav ul li {
         margin: 15px 0;     
+    }
+}
+@media only screen and (max-width: 320px) {
+    #rossBody .parallax-one, #rossBody .parallax-two, #rossBody .parallax-three, #rossBody .parallax-four  {
+        height: 350px;
+        padding: 0;
+        overflow: visible; 
+        position: relative; 
+        width: 100%;
+        background-attachment: scroll;
+        background-size: 100% 100%; 
+    }
+    
+    .navbox {
+        top: 0px;
+    }
+    nav {
+        top: 0px;    
+    }
+    .name {
+        width: 50%;
+        margin: 150px 25% 0 25%;
+         border: 3px solid #000;
+    }
+    .name h4 {
+        font-size: 34px;
+        font-family: 'Raleway', sans-serif;
+        color: #000;
+    }
+    aside .social-media-icons {
+        padding: 0px;    
+    }
+    .centered-icons {
+        padding: 0px;   
+    }
+    footer .social-media-icons .facebook, footer .social-media-icons .twitter, footer .social-media-icons .linkedin {
+        margin: 0px;   
     }
 }
