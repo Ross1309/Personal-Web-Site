@@ -146,7 +146,7 @@ nav ul li {
 .Resume article {
     
     float: left;
-    margin: 25px 6.25%;
+    margin: 25px 0;
 }
 .Resume article h3 {
     text-align: center;
@@ -175,7 +175,7 @@ nav ul li {
 .Resume aside {
     
     float: left;
-    margin: 25px 6.25%;
+    margin: 25px 0;
 }
 .Resume aside ul {
     text-align: center;
@@ -359,7 +359,7 @@ footer #author {
         margin: 15px 0;     
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
     #rossBody .parallax-one, #rossBody .parallax-two, #rossBody .parallax-three, #rossBody .parallax-four  {
         height: 350px;
         padding: 0;
@@ -369,7 +369,10 @@ footer #author {
         background-attachment: scroll;
         background-size: 100% 100%; 
     }
-    
+    #rossBody .parallax-one {
+        padding-top: 40px;
+        padding-bottom: 260px;
+    }
     .navbox {
         top: 0px;
     }
