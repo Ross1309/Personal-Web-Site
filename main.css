@@ -1,3 +1,4 @@
+/* Imports */
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400,200);
 @import url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
 /*Main CSS*/
@@ -91,6 +92,7 @@ nav ul li {
     color: #FFF;
     border: 2px solid #FFF;
 }
+
 /*Section 1*/
 .name {
     width: 33%;
@@ -104,6 +106,7 @@ nav ul li {
     font-family: 'Raleway', sans-serif;
     color: #FFF;
 }
+/********************************/
 /*Section 2*/
 .bio-intro {
     margin: 20px 0 50px;
@@ -125,6 +128,7 @@ nav ul li {
     color: #373737;
     font-size: 18px;
 }
+/********************************/
 /*Section 2*/
 .about {
     margin: 10px 0 50px;   
@@ -141,7 +145,7 @@ nav ul li {
     margin: 25px 10%;
     font-size: 18px;
 }
-
+/******************************/
 /*Section 3*/
 .Resume {
     width: 100%;
@@ -197,7 +201,7 @@ nav ul li {
     font-family: 'Goudy Bookletter 1911', serif; 
     color: #373737;
 }
-
+/**************************/
 /*Section 4*/
 .my-work {
     margin: 10px 0 50px;      
@@ -214,6 +218,7 @@ nav ul li {
     font-size: 18px;
     margin: 25px 10%;
 }
+/***************************/
 /*Footer*/
 .wrapper{
     min-height: 100%;
@@ -300,6 +305,7 @@ footer #author {
 .social-icon-box {
     float: left;
 }
+/********************************/
 /*Parallax Images*/
 
 #rossBody .parallax-one {
@@ -359,6 +365,9 @@ footer #author {
     background-repeat: no-repeat; 
     background-position: center center;    
 }
+/************************************/
+/*Media Queries*/
+
 @media screen and (max-width: 992px) {
     .navbox {
         height: 130px;   
@@ -414,3 +423,4 @@ footer #author {
         margin: 0px;   
     }
 }
+/**********************************/
