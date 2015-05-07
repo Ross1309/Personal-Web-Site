@@ -361,7 +361,7 @@ footer #author {
 }
 @media screen and (max-width: 992px) {
     .navbox {
-        height: 150px;   
+        height: 130px;   
     }
     nav ul li {
         margin: 15px 0;     
@@ -388,10 +388,11 @@ footer #author {
         top: 0px;
     }
     nav {
-        top: 0px;    
+        top: 0px;
     }
     nav ul {
     float: left;
+        margin-top: 0px;
     }
     .name {
         width: 50%;
