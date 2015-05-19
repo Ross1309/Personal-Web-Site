@@ -127,6 +127,7 @@ nav ul li {
     font-family: 'Goudy Bookletter 1911', serif; 
     color: #373737;
     font-size: 18px;
+    text-align: left;
 }
 /********************************/
 /*Section 2*/
@@ -217,6 +218,21 @@ nav ul li {
     color: #373737;
     font-size: 18px;
     margin: 25px 10%;
+}
+.code-example-link {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+.code-example-link p {
+    border: 2px solid #fff;
+}
+.code-example-link:hover {
+    list-style-type: none;
+    text-decoration: none; 
+}
+.code-example-link p:hover {
+    border: 2px solid #000;   
 }
 /***************************/
 /*Footer*/
