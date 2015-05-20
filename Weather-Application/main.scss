@@ -19,7 +19,7 @@ body {
     -moz-background-size: cover; 
     -webkit-background-size: cover;
     background-repeat: no-repeat;
-    background-posistion: center center;
+    background-position: center center;
     position: absolute;
     width: 100%;
     padding-bottom: 800px;
@@ -99,7 +99,7 @@ body {
 }
 
 .top .text{
-	width: 40%;
+	width: 50%;
 	text-align: center;
     /*color of city text and temp*/ 
 	color: #fff;
@@ -160,13 +160,17 @@ body {
 		margin: 0 25%;
 	}	
 	.top {
-		top: -80px;
+		top: -100px;
 		width: 90%;
-		margin: 0 5%;
+		margin: -25px 5% 0;
 	}
 	.background {
-		padding-right: 5000px;
-		bottom: 0;
+		padding-right: 0px;
+		bottom: 0px;
 	}
 }
-
+@media only screen and (max-width: 400px) {
+    .background {
+        bottom: -80px;   
+    }
+}

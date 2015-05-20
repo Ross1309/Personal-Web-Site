@@ -18,7 +18,7 @@ body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-posistion: center center;
+  background-position: center center;
   position: absolute;
   width: 100%;
   padding-bottom: 800px;
@@ -92,7 +92,7 @@ body {
   font-weight: bold; }
 
 .top .text {
-  width: 40%;
+  width: 50%;
   text-align: center;
   /*color of city text and temp*/
   color: #fff;
@@ -128,13 +128,29 @@ body {
   .top {
     width: 40%;
     margin: 0px 30%; } }
-
 @media screen and (max-width: 600px) {
   .top {
     width: 60%;
     margin: 0px 20%; } }
-
 @media screen and (max-width: 440px) {
   .top {
     width: 75%;
     margin: 0px 7.5%; } }
+/*For Mobile Devices*/
+@media only screen and (max-width: 580px) {
+  .logo {
+    top: -1000px;
+    width: 50%;
+    margin: 0 25%; }
+
+  .top {
+    top: -100px;
+    width: 90%;
+    margin: -25px 5% 0; }
+
+  .background {
+    padding-right: 0px;
+    bottom: 0px; } }
+@media only screen and (max-width: 400px) {
+  .background {
+    bottom: -80px; } }
